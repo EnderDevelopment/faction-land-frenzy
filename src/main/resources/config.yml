@@ -1,0 +1,7 @@
+event-duration-hours: 48
+start-day: 1
+start-hour: 18
+time-zone: UTC
+event-active: false
+event-ends-at: 0
+scores: {}

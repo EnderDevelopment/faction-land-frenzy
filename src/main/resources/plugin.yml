@@ -1,0 +1,16 @@
+name: WeeklyLandRace
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Weekly unclaimed-land race for Factions communities.
+commands:
+  landrace:
+    description: View or manage the weekly land claiming event.
+    usage: /landrace [start|end|status|top]
+  raceclaim:
+    description: Register the unclaimed chunk you are standing in for your team.
+    usage: /raceclaim
+permissions:
+  landrace.admin:
+    description: Start and end land races.
+    default: op
